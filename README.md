@@ -1,3 +1,22 @@
+1. Environment Setup
+Python Installation: Ensure Python is installed on your system. You can download it from the official Python website.
+Jupyter Notebook or Google Colab: For running the notebook, you can use Jupyter Notebook on your local machine or Google Colab for an online environment.
+Jupyter: Install it using pip install notebook and start it with the command jupyter notebook.
+Google Colab: Simply access it via your web browser.
+2. Required Libraries
+You'll need to install various Python libraries. This can typically be done using pip, Python’s package installer. The script uses these major libraries:
+
+numpy and pandas for data manipulation
+matplotlib, seaborn, and plotly for plotting and visualization
+scikit-learn for machine learning algorithms and data preprocessing tools
+tensorflow and keras for building and training deep learning models
+imbalanced-learn for handling imbalanced datasets
+xgboost and scikit-plot for advanced machine learning techniques and visualizations
+
+pip install numpy pandas matplotlib seaborn plotly scikit-learn tensorflow keras imbalanced-learn xgboost scikit-plot
+
+
+
 Google Drive Integration: The script starts by mounting Google Drive to access stored datasets, a common practice when working with Google Colab.
 Import Statements: Various libraries like pandas, numpy, scipy, sklearn, keras, and matplotlib are imported, indicating the script's reliance on data manipulation, machine learning models, and plotting functionalities.
 Data Preprocessing: The script includes steps for loading, normalizing, and scaling the data. This is crucial for preparing the dataset for model training.
